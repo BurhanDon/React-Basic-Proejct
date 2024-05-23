@@ -16,7 +16,17 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  min-height: 80rem;
+}
+
+#app-p,
+a {
+  text-align: center;
+  text-decoration: none;
+  color: rgba(226, 8, 255, 0.5);
+}
+
+#app-p a:hover {
+  color: rgba(226, 8, 255, 1);
 }
 
 main {

@@ -12,6 +12,13 @@ function App() {
         <CoreConcepts />
         <Examples />
       </main>
+      <p id="app-p">
+      Developed by
+        <a target="_blank" href="https://www.linkedin.com/in/burhan-siraj/">
+          {" "}
+          Burhan Uddin
+        </a>
+      </p>
     </>
   );
 }
